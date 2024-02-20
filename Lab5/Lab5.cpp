@@ -20,12 +20,15 @@ int main()
         if (90 > n && n >= 65) {
             cout << intString[n - 65];
         }
-        if (122 > n && n >= 97) {
-            cout << intString[n - 97];
+        else if (122 > n && n >= 97) {
             int upperCaseLetter(n - 32);
+            char (n - 32);
+            char upperCaseCode(intString[upperCaseLetter - 65]);
+            char lowerCaseCode(upperCaseCode + 32);
+            cout << lowerCaseCode;
         }
         else {
-            cout << n; 
+            cout << n;
         }
     }
 }
